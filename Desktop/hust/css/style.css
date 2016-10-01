@@ -1,0 +1,128 @@
+*{
+ 	margin: 0;
+ 	padding: 0;
+ }
+ body{
+ 	font-family:Helvetica;
+ 	font-size: 12px;
+ 	
+ }
+ .content{
+ 	position: relative;
+ 	width: 320px;
+ 	height: 548px;
+ 	overflow: hidden;
+ 	background-color: #001328;
+ }
+ .body{
+ 	width: 281px;
+ 	margin: 0 auto;
+ }
+.cols{
+ 	margin-bottom: 25px;
+ }
+ .cols1{
+ 	margin-top: 43px;
+ }
+.cols span{
+	color: #12B3C1;
+}
+.cols input[type=text],[type=number],[type=tel]{
+	border:none;
+	background-color: #001328 ;
+	margin-left:26px;
+}
+
+/*change the color of input-placeholder*/
+textarea,input::-webkit-input-placeholder{/*webkit browsers*/
+	color:#8c8c8c;
+	font-size:12px;
+}
+textarea,input:-moz-placeholder{/*mozilla firefox4 to 18*/
+	color: #8C8C8C;
+	font-size:12px;
+}
+textarea,input::-moz-placeholder{/*mozilla forefox 19+*/
+	color: #8C8C8C;
+	font-size:12px;
+}
+textarea,input:-ms-input-placeholder{/*internet explorer 10+*/
+	color: #8C8C8C;
+	font-size:12px;
+}
+hr{
+	margin-top: 12px;
+	border: 1px solid #14A9B6;
+}
+
+#start,#end{
+	width: 70px;
+}
+#end{
+	position: relative;
+	left: -10px;
+}
+input[type=number]{
+	width: 75px;
+}
+input[type=number]::-webkit-inner-spin-button,  
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    appearance: none; 
+    margin: 0; 
+}
+.simple_word{
+	color: #d8d8d8 !important;
+}
+textarea{
+	width: 282px;
+	height: 82px;
+	margin: 0 auto;
+	/*border: 1px solid #14A9B6;
+	background-color: #001A29;
+	border-radius: 5px;*/
+	background: #001A29;
+	border: 1px solid #12B3C1;
+	box-shadow: inset 1px 1px 8px 0px rgba(18,179,193,0.56);
+	border-radius: 4px;
+	margin-top: 10px;
+}
+label {
+	color: #d8d8d8;
+}
+div .radio{
+  display: inline-block;
+  margin-left: 10px;
+ }
+
+
+.btn{
+	position: absolute;
+	bottom: 0;
+}
+
+.btn div{
+	width: 160px;
+}
+input[type=submit]{
+	height: 51px;
+	width: 100%;
+	margin: 0;
+	display: block;
+	border: none;
+	/*font style*/
+	font-size: 14px;
+	color: #D8D8D8;
+}
+.right{
+	float:right;
+}
+.left{
+	float: left;
+}
+.right input{
+	background-color:#04A2B0;
+}
+.left input{
+	background-color:rgba(0,0,0,0.46); ;
+}
