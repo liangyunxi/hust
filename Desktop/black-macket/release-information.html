@@ -30,10 +30,10 @@
 		</div>
 		<div class="cols">
 			<span>任务时间</span>
-			<input id="start" type="text" name="start_time" readonly placeholder="开始时间" value="" onFocus="if(!value){value=defaultValue; this.style.color='white'}"  />
+			<input id="start" type="text" name="start_time" readonly placeholder="开始时间" value="" onBlur="if(!value){value=defaultValue; this.style.color='white'}"  />
 		
 			<span class="simple_word">到</span>
-			<input id="end" name="end_time" type="text" readonly  autocapitalize="off"placeholder="结束时间" value="" onFocus="if(!value){value=defaultValue; this.style.color='white'}" />
+			<input id="end" name="end_time" type="text" readonly  autocapitalize="off"placeholder="结束时间" value="" onBlur="if(!value){value=defaultValue; this.style.color='white'}" />
 			<hr>
 		</div>
 		<div class="cols">
